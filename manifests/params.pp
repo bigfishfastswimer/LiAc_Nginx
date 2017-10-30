@@ -1,6 +1,6 @@
 class nginx::params {
   $ensure = 'present'
-  $packagename = 'nginx'
+  $package_name = 'nginx'
   $config_dir  = '/etc/nginx'
   $config_ensure = 'file'
   $config_mode   = '0664'
